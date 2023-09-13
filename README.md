@@ -100,4 +100,27 @@
       }
     }
     ```
-  
+
+- `9. Add a book` 
+    
+    add a new book
+
+    ```
+    mutation {
+      addBook(name: "New Name", authorId: 1) {
+        id
+        name
+      }
+    }
+    ```
+    
+    check the new book is added    
+
+    ```
+    {
+        books {
+            id
+            name
+        }
+    }
+  ```  
