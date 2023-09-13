@@ -67,3 +67,17 @@
       }
     }
     ```
+
+- `6. Query books in authors `
+
+    ```
+    {
+      authors {
+        id,
+        name, 
+        books {
+          name
+        }
+      }
+    }
+    ```
