@@ -90,3 +90,14 @@
       }
     }
     ```
+
+- `8. Query a single author by id `
+
+    ```
+    {
+      author(id: 1) {
+        name
+      }
+    }
+    ```
+  
