@@ -124,3 +124,27 @@
         }
     }
   ```  
+
+- `10. Add an author`
+
+  add a new author
+
+    ```
+    mutation {
+      addAuthor(name: "New Author") {
+        name
+      }
+    }
+    ```
+
+  check the new book is added
+
+    ```
+    {
+        authors {
+            id
+            name
+        }
+    }
+  ```  
+  
