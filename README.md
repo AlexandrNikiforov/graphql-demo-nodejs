@@ -6,26 +6,40 @@
 # Commits info
 
 - `server is running` - blank express template
-- `2. GraphQL HelloWorld` - open localhost:5000/graphql in the browser. You should see graphql UI.
-You can query:
-```
-query {
-  message
-} 
-```
+- `2. GraphQL HelloWorld` 
 
-or
-```
-{
-  message
-} 
-```
+    open localhost:5000/graphql in the browser. You should see graphql UI.
+    You can query:
+    ```
+    query {
+      message
+    } 
+    ```
 
-It should return 
-```json
-{
-  "data": {
-    "message": "Hello World"
-  }
-}
-```
+    or
+    ```
+    {
+      message
+    } 
+    ```
+
+    It should return 
+    ```json
+    {
+      "data": {
+        "message": "Hello World"
+      }
+    }
+    ```
+
+- `3. Query books info` 
+
+    use query to get only names of the books:
+    ```
+    {
+        books {
+            name
+        }
+    }
+    ```
+  The same way you can query id and authodId
