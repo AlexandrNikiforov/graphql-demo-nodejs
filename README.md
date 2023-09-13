@@ -43,3 +43,16 @@
     }
     ```
   The same way you can query id and authodId
+
+- `4. Query authors inside books`
+
+    ```
+    {
+        books {
+            id
+            author {
+              name
+            }
+        }
+    }
+    ```
