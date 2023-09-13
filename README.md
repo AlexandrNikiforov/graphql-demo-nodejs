@@ -56,3 +56,14 @@
         }
     }
     ```
+
+- `5. Query authors list`
+
+    ```
+    {
+      authors {
+        id,
+        name
+      }
+    }
+    ```
