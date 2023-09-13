@@ -81,3 +81,12 @@
       }
     }
     ```
+- `7. Query a single book by id `
+
+    ```
+    {
+      book(id: 1) {
+        name
+      }
+    }
+    ```
